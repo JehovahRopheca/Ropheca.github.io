@@ -149,6 +149,16 @@
                 </div>
                 
                 <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="10-digit number" required>
+                </div>
+
+                <div class="form-group">
                     <label for="church">Church Affiliation *</label>
                     <input type="text" id="church" name="church" required>
                 </div>
@@ -164,12 +174,12 @@
                 </div>
                 
                 <div class="form-group">
-                    <label for="marks10">Marks in Class 10 (%) *</label>
+                    <label for="marks12">Marks in Class 12 (%) *</label>
                     <input type="number" id="marks10" name="marks10" min="0" max="100" required>
                 </div>
                 
                 <div class="form-group">
-                    <label for="marks12">Marks in Class 12 (%) *</label>
+                    <label for="marks10">Marks in Class 10 (%) *</label>
                     <input type="number" id="marks12" name="marks12" min="0" max="100" required>
                 </div>
                 
@@ -184,12 +194,7 @@
                 </div>
                 
                 <div class="form-group">
-                    <label for="admissionFee">Admission Fee (INR) *</label>
-                    <input type="number" id="admissionFee" name="admissionFee" min="0" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="tuitionFee">Total Tuition Fee (INR) *</label>
+                    <label for="tuitionFee">1st Year Tuition Fee (INR) *</label>
                     <input type="number" id="tuitionFee" name="tuitionFee" min="0" required>
                 </div>
             </div>
@@ -223,7 +228,7 @@
                     </div>
                     
                     <div class="form-group">
-                        <label for="deathCert">Death Certificate <span class="optional">(if applicable)</span></label>
+                        <label for="deathCert">Parent(s) Death Certificate *</label>
                         <input type="file" id="deathCert" name="deathCert" accept=".pdf,.jpg,.jpeg,.png">
                     </div>
                 </div>
