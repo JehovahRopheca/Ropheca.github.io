@@ -174,12 +174,12 @@
                 </div>
                 
                 <div class="form-group">
-                    <label for="marks12">Marks in Class 12 (%) *</label>
+                    <label for="marks12">Marks obtained in Class 12 (%) *</label>
                     <input type="number" id="marks10" name="marks10" min="0" max="100" required>
                 </div>
                 
                 <div class="form-group">
-                    <label for="marks10">Marks in Class 10 (%) *</label>
+                    <label for="marks10">Marks obtained in Class 10 (%) *</label>
                     <input type="number" id="marks12" name="marks12" min="0" max="100" required>
                 </div>
                 
