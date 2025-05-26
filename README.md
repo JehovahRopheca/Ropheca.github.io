@@ -169,7 +169,7 @@
                 </div>
                 
                 <div class="form-group">
-                    <label for="subjects12">Subjects Taken in Class 12 *</label>
+                    <label for="subjects12">Subjects studied in Class 12 *</label>
                     <input type="text" id="subjects12" name="subjects12" required>
                 </div>
                 
