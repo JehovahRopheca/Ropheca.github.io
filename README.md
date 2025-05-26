@@ -223,7 +223,7 @@
                     </div>
                     
                     <div class="form-group">
-                        <label for="incomeCert">Income Certificate *</label>
+                        <label for="incomeCert">Course selection Letter with fees details *</label>
                         <input type="file" id="incomeCert" name="incomeCert" accept=".pdf,.jpg,.jpeg,.png" required>
                     </div>
                     
